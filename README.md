@@ -2,7 +2,7 @@
 ---
 #### I'm a passionate software engineer based in Craiova, Romania.
 
-- 🏢 I'm currently working full-time as the Head of the Mobile Department with an awesome team at **NetDania**
+- 🏢 I'm currently working full-time as Technical Expert with an awesome team at **[Expleo](https://expleo.com/global/en/about-us/)**
 
 #### My Development Toolbelt ⚒:
 <br><img alt="Android" title="Android" src="https://user-images.githubusercontent.com/2779957/123782903-7740b200-d8de-11eb-9c76-9671a6fc5903.png" height="24">&nbsp;&nbsp;&nbsp;&nbsp;

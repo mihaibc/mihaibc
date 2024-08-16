@@ -1,16 +1,22 @@
-## Hi there 👋
+```cpp
+int main() {
+    SoftwareEngineer mihaibc;
+    mihaibc.setAbout("Mihai Baluta-Cujba", "Expleo", "Head of AI Solutions DET RO | Team Leader | DevOps Process & Practice Lead")
+          .addTechnologies({
+              "Kotlin", "C++", "Python", "Azure", "CI/CD",
+              "Java", "C#", "Objective-C", "Swift", "Flutter",
+              "Docker", "Azure DevOps", "Machine Learning",
+              "AI Solution Architecture",
+              "Clean Architecture", "Microservices", "MVVM",
+              "Systems Development",
+              "Algorithms", "Data Structures"
+          })
+          .setLinks("https://www.linkedin.com/in/mihaibc/", 
+                    "https://stackoverflow.com/users/8208808/mihaibc", 
+                    "https://github.com/mihaibc",
+                    "https://bacumi.dev/");
 
-<!--
-**mihaibc/mihaibc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    mihaibc.display();
+    return 0;
+}
+```

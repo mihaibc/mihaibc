@@ -1,61 +1,94 @@
-# Hi, I'm Mihai 👋
+# Hi, I'm Mihai
 
-Engineering Manager with 12+ years of backend and systems depth. I started in robotics and control systems, moved into software, and ended up leading distributed AI engineering orgs — while staying close enough to the architecture to still have an opinion on it.
+I build production AI systems and the engineering organizations around them.
 
-Currently **AI Practice Lead at Expleo Group** — working with engineers across Europe, Asia, and the Americas, shipping agentic AI systems to production for B2B clients, and owning the technical and people roadmap.
+I'm currently AI Practice Lead at Expleo Group, leading Data & AI work across enterprise clients: agentic workflows, RAG systems, LLM governance, human-in-the-loop automation, AI adoption, and distributed engineering teams.
 
-The best engineering leaders don't drift from the code. I write it when it matters.
-
----
-
-### What I'm building and thinking about
-
-- **Agentic AI in production** — multi-agent pipelines, RAG, function calling, and workflow orchestration with LangChain, Semantic Kernel, and Google ADK. Shipped to paying clients, not internal demos.
-- **LLM governance at enterprise scale** — RBAC, token usage governance, human-in-the-loop approval flows, compliance gates, and production observability via Azure Monitor and App Insights.
-- **Engineering orgs that scale** — managing team leads across three continents, async-first delivery, career frameworks, keeping teams unblocked without bottlenecking through me.
-- **Shared platform engineering** — CI/CD infrastructure built as a platform consumed across multiple independent teams.
+My focus is simple: move AI from demos into real workflows that are useful, measurable, governed, and safe to operate.
 
 ---
 
-### 🤖 AI & LLMs
+## What I work on
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,azure" />
-</p>
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat-square&logo=google&logoColor=white)
-![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)
-![Anthropic API](https://img.shields.io/badge/Anthropic_API-D97757?style=flat-square)
-![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=google&logoColor=white)
-![Azure AI Foundry](https://img.shields.io/badge/Azure_AI_Foundry-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
-![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-### ⚙️ Backend & Cloud
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=ts,rust,py,nodejs,dotnet,cs,go,docker,kubernetes,terraform,azure,gcp,aws,postgres,mongodb" />
-</p>
-
-### 📱 Mobile & UI
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=flutter,react,angular,swift,kotlin,vue" />
-</p>
+- **Production GenAI systems** - RAG, agentic workflows, LLM orchestration, function calling, semantic search, and AI workflow automation.
+- **AI governance and readiness** - RBAC, human-in-the-loop approvals, evals, observability, token and cost control, compliance gates, and operating models for AI adoption.
+- **Engineering leadership** - distributed teams, async delivery, team leads, career frameworks, roadmap ownership, and platform engineering.
+- **Privacy-first AI architecture** - local-first workflows, provider abstraction, anonymization, audit trails, and safe use of public or local model providers.
+- **Applied AI** - AI systems that solve real operational problems in sales, legal, HR, engineering, and enterprise delivery.
 
 ---
 
-### 📊 GitHub Stats
+## Start here
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=mihaibc&show_icons=true&hide_border=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mihaibc&layout=compact&hide_border=true" height="150" />
-</p>
+### AI Production Readiness Kit
+
+Open-source CLI and documentation kit for assessing whether an AI workflow is ready for production.
+
+It helps teams evaluate business value, data readiness, RAG quality, model architecture, governance, human review, evals, observability, cost, operations, and adoption.
+
+**Why it matters:** most AI demos fail after the prototype because nobody has checked the operational parts.
+
+Repo: https://github.com/mihaibc/ai-production-readiness-kit
 
 ---
 
-### Connect
+### PrivacyCopilot
 
-💼 [LinkedIn](https://www.linkedin.com/in/mihaibc)
+Local-first AI privacy gateway, being rebuilt in Rust.
+
+The goal is to detect and anonymize sensitive data before prompts are sent to local or cloud LLM providers, with provider-agnostic routing, policy controls, reversible tokenization, and audit reports.
+
+**Why it matters:** companies should not have to choose between blocking AI adoption and leaking sensitive data into tools they do not control.
+
+Repo: https://github.com/mihaibc/PrivacyCopilot
+
+---
+
+### automate_everything
+
+Automation scripts and utilities for AI/LLM workflows, file management, local models, prompt preparation, and developer productivity.
+
+Repo: https://github.com/mihaibc/automate_everything
+
+---
+
+## Current focus
+
+I'm currently building around three ideas:
+
+1. **AI production readiness**  
+   How teams decide whether an AI workflow is still a demo, ready for pilot, or safe enough for production.
+2. **Privacy-first AI enablement**  
+   How companies can safely use local and cloud models without exposing sensitive data.
+3. **AI-assisted engineering leadership**  
+   How engineering teams use AI without losing architecture quality, ownership, testing, and maintainability.
+
+---
+
+## Selected writing
+
+- **AI Compatibility Debt** - why GenAI demos work but production AI systems break when teams ignore evals, governance, observability, model dependency, and ownership.
+- **AI Production Readiness** - how to move AI workflows from prototype to governed production.
+- **AI-ready engineering organizations** - how data, platform, product, and engineering teams need to change for AI to create real value.
+
+LinkedIn: https://www.linkedin.com/in/mihaibc
+
+---
+
+## Tech I work with
+
+**AI / LLMs:** Azure OpenAI, OpenAI API, Anthropic, Gemini, LangChain, Semantic Kernel, Google ADK, Ollama, pgvector
+
+**Backend / systems:** .NET/C#, Python, TypeScript, Go, Rust, PostgreSQL, Docker, Kubernetes, Terraform
+
+**Cloud:** Azure, Google Cloud, AWS
+
+**Leadership:** engineering org design, distributed teams, AI adoption, roadmap ownership, C-level communication, technical presales
+
+---
+
+## Connect
+
+I like comparing notes with people working on production GenAI, AI governance, privacy-first AI, and engineering organizations in the AI era.
+
+LinkedIn: https://www.linkedin.com/in/mihaibc

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="title desc">
+  <title id="title">Build with intent</title>
+  <desc id="desc">Off-white lettering on charcoal, with a teal geometric motif of connected frames.</desc>
+  <!-- Edit the two text nodes and colors. Keep the short headline readable on mobile. -->
+  <rect width="960" height="240" rx="16" fill="#171c20"/>
+  <path d="M48 52h48" stroke="#5ee0c0" stroke-width="5"/>
+  <text x="48" y="132" fill="#f3f1e9" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" letter-spacing="-2">Build with intent.</text>
+  <text x="50" y="182" fill="#b5c2c6" font-family="Arial, Helvetica, sans-serif" font-size="23" letter-spacing="2">IDEAS → TOOLS → REAL WORK</text>
+  <g fill="none" stroke="#5ee0c0" stroke-width="2">
+    <rect x="750" y="48" width="140" height="140" rx="12" opacity=".25"/>
+    <rect x="720" y="72" width="110" height="110" rx="10" opacity=".6"/>
+    <path d="M748 126h52m-16-16 16 16-16 16"/>
+  </g>
+  <circle cx="888" cy="50" r="5" fill="#5ee0c0"/>
+</svg>

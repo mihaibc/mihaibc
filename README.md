@@ -1,94 +1,48 @@
-# Hi, I'm Mihai
+![Build with intent — a charcoal banner with a teal architectural motif](assets/banner.svg)
 
-I build production AI systems and the engineering organizations around them.
+# Mihai
 
-I'm currently AI Practice Lead at Expleo Group, leading Data & AI work across enterprise clients: agentic workflows, RAG systems, LLM governance, human-in-the-loop automation, AI adoption, and distributed engineering teams.
+**Production AI · Developer tools · Engineering leadership**
 
-My focus is simple: move AI from demos into real workflows that are useful, measurable, governed, and safe to operate.
+I build AI systems that fit real workflows, and tools that make the engineering behind them easier to understand. I'm an Engineering Manager and Solution Architect, leading Data & AI in Romania at Expleo.
 
----
+This profile is also a layout you can make your own: plain Markdown, an editable banner, and space for the work you want people to try.
 
-## What I work on
+**[Use this profile layout →](CUSTOMIZE.md)**
 
-- **Production GenAI systems** - RAG, agentic workflows, LLM orchestration, function calling, semantic search, and AI workflow automation.
-- **AI governance and readiness** - RBAC, human-in-the-loop approvals, evals, observability, token and cost control, compliance gates, and operating models for AI adoption.
-- **Engineering leadership** - distributed teams, async delivery, team leads, career frameworks, roadmap ownership, and platform engineering.
-- **Privacy-first AI architecture** - local-first workflows, provider abstraction, anonymization, audit trails, and safe use of public or local model providers.
-- **Applied AI** - AI systems that solve real operational problems in sales, legal, HR, engineering, and enterprise delivery.
+## Featured projects
 
----
+### [AI Production Readiness Kit](https://github.com/mihaibc/ai-production-readiness-kit)
 
-## Start here
+Turn a workflow description into a repeatable readiness assessment, report, remediation plan, and CI gate. Deterministic checks make the scoring explicit, with synthetic examples to explore before assessing your own system.
 
-### AI Production Readiness Kit
+**Stack:** Python · YAML · CLI
 
-Open-source CLI and documentation kit for assessing whether an AI workflow is ready for production.
+**Status:** Available from source; install instructions in the repository.
 
-It helps teams evaluate business value, data readiness, RAG quality, model architecture, governance, human review, evals, observability, cost, operations, and adoption.
+[Explore examples →](https://github.com/mihaibc/ai-production-readiness-kit/tree/main/examples)
 
-**Why it matters:** most AI demos fail after the prototype because nobody has checked the operational parts.
+### [PrivacyCopilot](https://github.com/mihaibc/PrivacyCopilot)
 
-Repo: https://github.com/mihaibc/ai-production-readiness-kit
+A desktop AI assistant with local SQLite storage, configurable local or hosted model providers, image attachments, and artifact retrieval. My personal workspace for exploring Rust and desktop product architecture.
 
----
+**Stack:** Rust · Tauri · React · SQLite
 
-### PrivacyCopilot
+**Status:** Personal project under development.
 
-Local-first AI privacy gateway, being rebuilt in Rust.
+[Explore the architecture →](https://github.com/mihaibc/PrivacyCopilot#current-architecture)
 
-The goal is to detect and anonymize sensitive data before prompts are sent to local or cloud LLM providers, with provider-agnostic routing, policy controls, reversible tokenization, and audit reports.
+## What I'm building
 
-**Why it matters:** companies should not have to choose between blocking AI adoption and leaking sensitive data into tools they do not control.
-
-Repo: https://github.com/mihaibc/PrivacyCopilot
-
----
-
-### automate_everything
-
-Automation scripts and utilities for AI/LLM workflows, file management, local models, prompt preparation, and developer productivity.
-
-Repo: https://github.com/mihaibc/automate_everything
-
----
-
-## Current focus
-
-I'm currently building around three ideas:
-
-1. **AI production readiness**  
-   How teams decide whether an AI workflow is still a demo, ready for pilot, or safe enough for production.
-2. **Privacy-first AI enablement**  
-   How companies can safely use local and cloud models without exposing sensitive data.
-3. **AI-assisted engineering leadership**  
-   How engineering teams use AI without losing architecture quality, ownership, testing, and maintainability.
-
----
+- **Production readiness:** explicit checks for evaluation, human review, cost, and operational ownership.
+- **Local AI tools:** practical ways to work with models, documents, and data on your own machine.
+- **AI-assisted engineering:** useful agent workflows with human responsibility for architecture, code review, and testing.
 
 ## Selected writing
 
-- **AI Compatibility Debt** - why GenAI demos work but production AI systems break when teams ignore evals, governance, observability, model dependency, and ownership.
-- **AI Production Readiness** - how to move AI workflows from prototype to governed production.
-- **AI-ready engineering organizations** - how data, platform, product, and engineering teams need to change for AI to create real value.
+- [The AI Demo Worked. Then Production Asked Better Questions](https://www.linkedin.com/pulse/ai-demo-worked-production-asked-better-questions-mihai-baluta-cujba-vcjue/) — the operational questions behind AI compatibility debt.
+- [Architecting the Engine: A Leader's Guide to Building the Modern, AI-Ready Data Team](https://www.linkedin.com/pulse/architecting-engine-leaders-guide-building-modern-mihai-baluta-cujba-ow0gf/) — roles and approaches to organizing AI delivery.
 
-LinkedIn: https://www.linkedin.com/in/mihaibc
+## Connect and reuse
 
----
-
-## Tech I work with
-
-**AI / LLMs:** Azure OpenAI, OpenAI API, Anthropic, Gemini, LangChain, Semantic Kernel, Google ADK, Ollama, pgvector
-
-**Backend / systems:** .NET/C#, Python, TypeScript, Go, Rust, PostgreSQL, Docker, Kubernetes, Terraform
-
-**Cloud:** Azure, Google Cloud, AWS
-
-**Leadership:** engineering org design, distributed teams, AI adoption, roadmap ownership, C-level communication, technical presales
-
----
-
-## Connect
-
-I like comparing notes with people working on production GenAI, AI governance, privacy-first AI, and engineering organizations in the AI era.
-
-LinkedIn: https://www.linkedin.com/in/mihaibc
+[Connect on LinkedIn](https://www.linkedin.com/in/mihaibc) to compare notes on AI tools and engineering. [Customize this layout](CUSTOMIZE.md) for your own projects. If it helps, consider starring this repository so others can find it.
